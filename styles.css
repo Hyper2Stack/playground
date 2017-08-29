@@ -332,7 +332,7 @@ header h1 .optional {
 
 #top-controls .control .select::after {
   class: "material-icons";
-  content: "arrow_drop_down";
+  content: "v";
   color: #999;
   font-family: 'Material Icons';
   font-weight: normal;

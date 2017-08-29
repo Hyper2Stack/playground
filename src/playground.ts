@@ -668,7 +668,7 @@ function addPlusMinusControl(x: number, layerIdx: number) {
       })
     .append("i")
       .attr("class", "material-icons")
-      .text("add");
+      .text("+");
 
   firstRow.append("button")
       .attr("class", "mdl-button mdl-js-button mdl-button--icon")
@@ -683,7 +683,7 @@ function addPlusMinusControl(x: number, layerIdx: number) {
       })
     .append("i")
       .attr("class", "material-icons")
-      .text("remove");
+      .text("-");
 
   let suffix = state.networkShape[i] > 1 ? "s" : "";
   div.append("div").text(

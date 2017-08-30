@@ -3,3 +3,6 @@ typings/
 dist/
 *.log
 .vscode
+
+env
+*.pyc
